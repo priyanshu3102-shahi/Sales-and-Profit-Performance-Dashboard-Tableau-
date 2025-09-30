@@ -11,10 +11,10 @@ Analyzing how **order quantity impacts profit margin**.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🛠️ Technology Stack
-Component	Detail
-Data Visualization	
-Tableau Desktop / Tableau Public 
-- Data Source: Sales Dataset (Excel/CSV) 
+
+Component	Detail:
+- Data Visualization: Tableau Desktop / Tableau Public 
+- Data Source: Sales: Dataset (Excel/CSV) 
 - Data Preparation: Date formatting and creation of calculated fields (e.g., Profit and Profit Margin) 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -22,33 +22,33 @@ Tableau Desktop / Tableau Public
 📊 Dashboard Key Components
 The final interactive dashboard combines multiple visualizations and essential KPI indicators to provide a complete performance overview.
 
-**Key Performance Indicators (KPIs)**
+**Key Performance Indicators (KPIs)**<br>
 The dashboard includes indicators for a quick overview of performance:
-Total Sales 
-Total Profit 
-Average Profit Margin 
-**Core Visualizations**
+Total Sales <br>
+Total Profit <br>
+Average Profit Margin <br>
+
+**Core Visualizations**<br>
 The dashboard features several charts for deeper exploration:
+- Line Chart: _Sales and Profit Trends Over Time_ 
+- Bar Chart: _Profit by Region and Product Category_ 
+- Stacked Bar Chart: _Sales by Customer Segment (with regional breakdown)_ 
+- Scatter Plot: _Relationship between Order Quantity and Profit Margin_ 
+- Scatter Plot: _Correlation between Product Price and Sales Volume_ 
 
-Line Chart: _Sales and Profit Trends Over Time_ 
-Bar Chart: _Profit by Region and Product Category_ 
-Stacked Bar Chart: _Sales by Customer Segment (with regional breakdown)_ 
-Scatter Plot: _Relationship between Order Quantity and Profit Margin_ 
-Scatter Plot: _Correlation between Product Price and Sales Volume _
-
-Interactivity
+**Interactivity**<br>
 The dashboard is made interactive using the following user filters:
-Customer Segment 
-Region 
-Category Name 
+Customer Segment<br> 
+Region<br>
+Category Name <br>
 Order Date (Time Filter) 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📁 Repository Structure
-The project files are organized to provide clarity for any user looking to replicate the analysis:
+The project files are organized to provide clarity for any user looking to replicate the analysis:<br>
 
-Sales-Performance-Tableau/
-├── Sales_Data.xlsx       # The raw sales dataset used for the project
-├── Sales_Performance_Dashboard.twbx  # The final Tableau packaged workbook (includes all charts and data connection)
-└── README.md                  # This file
+Sales-Performance-Tableau/<br>
+├── Sales_Data.xlsx       # The raw sales dataset used for the project <br>
+├── Sales_Performance_Dashboard.twbx  # The final Tableau packaged workbook (includes all charts and data connection)<br>
+└── README.md                  # This file <br>
