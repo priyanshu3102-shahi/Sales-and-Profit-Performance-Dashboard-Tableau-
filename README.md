@@ -1,6 +1,7 @@
 # Sales-and-Profit-Performance-Dashboard-Tableau-
 
 🚀 Project Goal
+
 The primary objective is to transform a raw sales dataset into actionable insights by creating an interactive dashboard that monitors key business metrics and identifies performance drivers across various dimensions.
 Key analytical questions addressed include:
 Identifying sales and profit **trends over time**.
